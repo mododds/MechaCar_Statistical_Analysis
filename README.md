@@ -1,17 +1,18 @@
 # MechaCar_Statistical_Analysis
 Module 15 (R and R studio)
 ## Linear Regression to Predict MPG
-1. Vehicle length and ground clearance had the strongest positive correlation to the MPG values in the dataset.
-2. The linear model predicted a multiple R-squared value of 0.7149 (Adjusted 0.6825), this indicates that the slope is not zero. 
+1. [Vehicle length](https://github.com/mododds/MechaCar_Statistical_Analysis/blob/main/Length_mpg.png) and [ground clearance](https://github.com/mododds/MechaCar_Statistical_Analysis/blob/main/ground_clearance.png) had the strongest positive correlation to the MPG values in the dataset.
+2. The [linear model](https://github.com/mododds/MechaCar_Statistical_Analysis/blob/main/ln_Summ.png) predicted a multiple R-squared value of 0.7149 (Adjusted 0.6825), this indicates that the slope is not zero. 
 3. The linear model provides some valuable insights into factors that may affect Miles per Galon.  For example, keeping the length and ground clearance low generally improve MPG, while spoiler angle, weight and drive train do not.  That being said, there are still a number of outliers in the dataset. As the R-squared value is greater than 0.5, one can deduce that the model effectively predicts the MPG of the prototypes. 
 
 ## Summary Statistics on Suspension Coils
-The total variance for all manufacturing lots is 62.29, which indicates the manufacturer is within the target variance of < 100 
+The [total variance](https://github.com/mododds/MechaCar_Statistical_Analysis/blob/main/lot_Stats_sum.png) for all manufacturing lots is 62.29, which indicates the manufacturer is within the target variance of < 100 
 - Lots 1 and 2 are within the variance requirements at 0.98 & 7.47 respectively, however, lot 3 is well outside the target variance at 170.29
 
 ## T-Tests on Suspension Coils
-Running a t-test against a random sample of data produced a mean of x = 3.176
-Running a t-test against each lot specifically provided similar results:
+Running a [t-test](https://github.com/mododds/MechaCar_Statistical_Analysis/blob/main/t_test_1.png) against a random sample of data produced a mean of x = 3.176
+
+Running [t-tests](https://github.com/mododds/MechaCar_Statistical_Analysis/blob/main/t_test_2.png) against each lot specifically provided similar results:
 - Lot 1: 3.176
 - Lot 2: 3.176
 - Lot 3: 3.175
